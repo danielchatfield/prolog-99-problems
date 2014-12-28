@@ -1,18 +1,18 @@
 /**
- * my_last(?X, +L)
+ * last(+L, ?X)
  */
 
-my_last(X,[X]) :- !.
-my_last(X,[_|XS]) :- my_last(X, XS).
+last([X], X) :- !.
+last([_|XS], X) :- last(XS, X).
 
-:- begin_tests(my_last).
-test('empty list') :-
-    \+my_last(_,[]).
+:- begin_tests(last).
+test('empty list', [fail]) :-
+    last([],_).
 test('simple list') :-
-    my_last(X, [a,b,c]),
+    last([a,b,c], X),
     X == c.
 test('instantiated failure', [fail]) :-
-    my_last(a, [a,b,c]).
+    last([a,b,c], a).
 test('instantiated success') :-
-    my_last(c, [a,b,c]).
-:- end_tests(my_last).
+    last([a,b,c], c).
+:- end_tests(last).
