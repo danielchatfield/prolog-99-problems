@@ -15,3 +15,10 @@ predicate in a declarative statement. Do not describe procedurally, what the
 predicate does, but write down a logical statement which includes the arguments
 of the predicate. You should also indicate the intended data types of the
 arguments and the allowed flow patterns.
+
+I have deviated somewhat from the original questions (indexes should start at 0!) and have altered this readme accordingly.
+
+1. Find the last element of a list
+2. FInd the last but one element of a list
+3. Find the element of a list in position N (0 is first element)
+4. Find the length of a list 
