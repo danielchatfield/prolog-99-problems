@@ -21,4 +21,5 @@ I have deviated somewhat from the original questions (indexes should start at 0!
 1. Find the last element of a list
 2. FInd the last but one element of a list
 3. Find the element of a list in position N (0 is first element)
-4. Find the length of a list 
+4. Find the length of a list
+5. Reverse a list 
