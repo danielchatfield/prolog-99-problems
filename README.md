@@ -23,4 +23,5 @@ I have deviated somewhat from the original questions (indexes should start at 0!
 3. Find the element of a list in position N (0 is first element)
 4. Find the length of a list
 5. Reverse a list
-6. Determine if a list is a palindrome (same when reversed) 
+6. Determine if a list is a palindrome (same when reversed)
+7. Flatten a nested list e.g. [a,[b,[c,d],e]] -> [a,b,c,d,e]

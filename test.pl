@@ -4,3 +4,4 @@
 :- ensure_loaded(p04).
 :- ensure_loaded(p05).
 :- ensure_loaded(p06).
+:- ensure_loaded(p07).
