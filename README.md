@@ -25,3 +25,12 @@ I have deviated somewhat from the original questions (indexes should start at 0!
 5. Reverse a list
 6. Determine if a list is a palindrome (same when reversed)
 7. Flatten a nested list e.g. [a,[b,[c,d],e]] -> [a,b,c,d,e]
+8. Eliminate consecutive duplicates of list elements
+
+# Testing
+
+To run the unit tests run the following:
+
+```bash
+swipl -l test.pl -t "run_tests"
+```
