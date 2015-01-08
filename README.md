@@ -27,6 +27,7 @@ I have deviated somewhat from the original questions (indexes should start at 0!
 7. Flatten a nested list e.g. [a,[b,[c,d],e]] -> [a,b,c,d,e]
 8. Eliminate consecutive duplicates of list elements
 9. Pack consecutive duplicates of list elements into sublists.
+10. Run-length encoding of a list
 
 # Testing
 
