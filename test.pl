@@ -8,3 +8,4 @@
 :- ensure_loaded(p08).
 :- ensure_loaded(p09).
 :- ensure_loaded(p10).
+:- ensure_loaded(p11).

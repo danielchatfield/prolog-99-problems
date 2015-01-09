@@ -28,6 +28,7 @@ I have deviated somewhat from the original questions (indexes should start at 0!
 8. Eliminate consecutive duplicates of list elements
 9. Pack consecutive duplicates of list elements into sublists.
 10. Run-length encoding of a list
+11. Modified run-length encoding.
 
 # Testing
 
