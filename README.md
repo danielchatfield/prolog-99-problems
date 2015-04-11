@@ -3,6 +3,9 @@
 
 These are my solutions to the [99 problems](https://sites.google.com/site/prologsite/prolog-problems) by Werner Hett.
 
+I occasionally adapt the question (e.g. indexes should start at 0 not 1) but
+they are essentially the same. 
+
 >The purpose of this problem collection is to give you the opportunity to
 practice your skills in logic programming. Your goal should be to find the most
 elegant solution of the given problems. Efficiency is important, but logical
