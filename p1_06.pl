@@ -2,7 +2,7 @@
  * is_palindrome(+L)
  */
 
-:- ensure_loaded(p05).
+:- ensure_loaded(p1_05).
 
 is_palindrome(L) :- reverse(L,L).
 
